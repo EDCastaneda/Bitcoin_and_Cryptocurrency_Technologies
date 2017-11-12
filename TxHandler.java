@@ -123,8 +123,7 @@ public class TxHandler {
      */    
     public Transaction[] handleTxs(Transaction[] possibleTxs) {              
         
-        int num_possTXs = possibleTxs.length;
-        //System.out.format("possibleTxs.length:%d \n", num_possTXs);       
+        int num_possTXs = possibleTxs.length;       
         int[] invalidIndices = new int[num_possTXs];
         int num_invalid_tx = 0;
                 
